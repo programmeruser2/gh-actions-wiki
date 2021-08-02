@@ -1,5 +1,4 @@
-[test](https://programmeruser2.github.io/wiki/wiki/test)  
 [test 2](https://programmeruser2.github.io/wiki/wiki/test%202)  
 [test 3](https://programmeruser2.github.io/wiki/wiki/test%203)  
 [test 5](https://programmeruser2.github.io/wiki/wiki/test%205)  
-[\t\e\s\t\ \6\ \!\@\#\$\%\^\&\*\(\)\!\)](https://programmeruser2.github.io/wiki/wiki/test%206%20!%40%23%24%25%5E%26*()!))  
+[test 6 !@#$%^&*()!)](https://programmeruser2.github.io/wiki/wiki/test%206%20!%40%23%24%25%5E%26*()!))  
