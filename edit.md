@@ -1,11 +1,12 @@
 # Edit
-<form id="edit-form"><input name="title" type="text" placeholder="Title" /><br/><textarea name="body" placeholder="Text" form="edit-form"></textarea><span id="error-msg" style="color:red;"></span><input type="submit" /></form>
+<form id="edit-form"><input name="title" type="text" placeholder="Title" /><br/><textarea name="body" placeholder="Text" form="edit-form"></textarea><br/><span id="error-msg" style="color:red;"></span><br/><input type="submit" /></form>
 <script>
     const form = document.getElementById('edit-form');
     const errMsg = document.getElementById('error-msg');
     form.addEventListener('submit', event => {
         event.preventDefault();
-        const data = (new FormData(form)).forEach((value, key) => object[key] = value);
+        let data = {};
+        (new FormData(form)).forEach((value, key) => data[key] = value);
         let err = false;
         fetch('https://gh-wiki-api.programmeruser.repl.co', {
             method: 'POST',
