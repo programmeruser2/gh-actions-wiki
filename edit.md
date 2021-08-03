@@ -8,7 +8,7 @@
         let data = {};
         (new FormData(form)).forEach((value, key) => data[key] = value);
         let err = false;
-        fetch('https://gh-wiki-api.programmeruser.repl.co', {
+        fetch('https://gh-wiki-api.programmeruser.repl.co/edit', {
             method: 'POST',
             body: JSON.stringify(data)
         }).then(res => {
