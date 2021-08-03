@@ -19,6 +19,6 @@
         }).then(text => {
             if (err) return errMsg.textContent = text;
             else location.href = 'https://programmeruser2.github.io/wiki/wiki/' + encodeURIComponent(data.title);
-        });
+        }).catch(err => errMsg.textContent = err.message);
     });
 </script>
