@@ -1,2 +1,2 @@
-
-test delete
+true
+false
