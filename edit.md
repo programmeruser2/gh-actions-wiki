@@ -18,7 +18,7 @@
             }
         }).then(text => {
             if (err) return errMsg.textContent = text;
-            else location.href = 'https://programmeruser2.github.io/wiki/wiki/' + encodeURIComponent(data.title);
+            else location.href = 'https://programmeruser2.github.io/gh-pages-wiki/wiki/' + encodeURIComponent(data.title);
         }).catch(err => errMsg.textContent = err.message);
     });
 </script>
